@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(201, 253, 253);
+}
+
+header {
+    background-image: url(bolivia.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+
+}
+
+h1, h2, h3 {
+    margin: 20px 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #1c1fca;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display:flex;
+    margin: 10px auto;
+}
+
+.contenedor {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button {
+    background-color: #bb13dd;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: aqua;
+}
+
+.galeria{
+    margin: 11px;
+    border: 2px solid rgb(204, 9, 194);
+    width: 300px;
+    float: left;
+    position: center;
+}
+.galeria:hover{
+    border: 5px solid rgb(204,9, 212);
+}
+.imagen{
+    width: 100%;
+    height: auto;
+    border-radius: 25%;
+}
+.textoinferior{
+    background-color: rgb(231, 22, 196);
+    text-align: center;
+    padding: 20px;
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}

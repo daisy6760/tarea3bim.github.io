@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+.cabeza{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boton{
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    transition:background-color 2s ease ;
+}
+.boton:hover{
+    background-color: antiquewhite;
+    color:blueviolet;
+}
